@@ -217,21 +217,21 @@ template { display: none; }
 
 .registroNotas__title { text-align: center; font-size: 2rem; }
 
-.datosEstudiante__title { font-size: 2rem; padding: 1rem; }
+.datosEstudiante__title { font-size: 2rem; padding: 1rem; text-align: center; }
 
-.datosEstudiante__box { margin: 0 auto; display: flex; align-items: center; width: 90vw; }
+.datosEstudiante__box { margin: 0 auto; display: flex; align-items: center; width: 90vw; text-align: center; }
 
-.datosEstudiante__box p { font-size: 1.7rem; width: 45%; border: 1px solid var(--green); }
+.datosEstudiante__box p { font-size: 1.7rem; width: 45%; border: 1px solid var(--green); text-align: center; }
 
 @media screen and (min-width: 1024px) { .datosEstudiante__box { width: 50vw; } }
 
-.NotasSiagie { display: flex; flex-direction: column; }
+.NotasSiagie { display: flex; flex-direction: column; text-align: center; }
 
-.NotasSiagie__title { font-size: 2rem; padding: 1rem; }
+.NotasSiagie__title { font-size: 2rem; padding: 1rem; text-align: center; }
 
-.NotasSiagie__box { margin: 0 auto; display: flex; align-items: center; width: 90vw; }
+.NotasSiagie__box { text-align: center; margin: 0 auto; display: flex; align-items: center; width: 90vw; }
 
-.NotasSiagie__box p { font-size: 1.7rem; width: 45%; border: 1px solid var(--green); }
+.NotasSiagie__box p { text-align: center; font-size: 1.7rem; width: 45%; border: 1px solid var(--green); }
 
 .NotasSiagie__box--competencia { display: block; }
 
@@ -239,15 +239,17 @@ template { display: none; }
 
 @media screen and (min-width: 1024px) { .NotasSiagie__box { width: 50vw; } }
 
-.datosResultados__container { display: grid; }
+.datosResultados__container { text-align: center; display: grid; }
 
 @media screen and (min-width: 1024px) { .datosResultados__container { grid-template-columns: repeat(2, 1fr); } }
 
-.datosResultados__title { font-size: 2rem; padding-top: 1.5rem; }
+.datosResultados { text-align: center; }
 
-.datosResultados__box { margin: 0 auto; display: flex; align-items: center; width: 90vw; }
+.datosResultados__title { text-align: center; font-size: 2rem; padding-top: 1.5rem; }
 
-.datosResultados__box p { font-size: 1.5rem; width: 45%; border: 1px solid var(--green); }
+.datosResultados__box { text-align: center; margin: 0 auto; display: flex; align-items: center; width: 90vw; }
+
+.datosResultados__box p { text-align: center; font-size: 1.5rem; width: 45%; border: 1px solid var(--green); }
 
 @media screen and (min-width: 1024px) { .datosResultados__box { width: 20vw; width: 80%; } }
 
