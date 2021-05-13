@@ -213,6 +213,48 @@ template { display: none; }
 @media (min-width: 768px) { .main__container { grid-template-columns: repeat(2, 1fr); gap: 3.5rem; padding: 5rem 7rem; } }
 
 /*seciones de meses y semanas*/
+.formulario { padding: 7rem; }
+
+.registroNotas__title { font-size: 2rem; }
+
+.datosEstudiante__title { font-size: 2rem; padding: 1rem; }
+
+.datosEstudiante__box { margin: 0 auto; display: flex; align-items: center; width: 90vw; }
+
+.datosEstudiante__box p { font-size: 1.7rem; width: 45%; border: 1px solid var(--green); }
+
+@media screen and (min-width: 1024px) { .datosEstudiante__box { width: 50vw; } }
+
+.NotasSiagie { display: flex; flex-direction: column; }
+
+.NotasSiagie__title { font-size: 2rem; padding: 1rem; }
+
+.NotasSiagie__box { margin: 0 auto; display: flex; align-items: center; width: 90vw; }
+
+.NotasSiagie__box p { font-size: 1.7rem; width: 45%; border: 1px solid var(--green); }
+
+.NotasSiagie__box--competencia { display: block; }
+
+.NotasSiagie__box--competencia h5 { font-size: 1.2rem; font-weight: 300; margin: 0; padding: 0; }
+
+@media screen and (min-width: 1024px) { .NotasSiagie__box { width: 50vw; } }
+
+.datosResultados__container { display: grid; }
+
+@media screen and (min-width: 1024px) { .datosResultados__container { grid-template-columns: repeat(2, 1fr); } }
+
+.datosResultados__title { font-size: 2rem; padding-top: 1.5rem; }
+
+.datosResultados__box { margin: 0 auto; display: flex; align-items: center; width: 90vw; }
+
+.datosResultados__box p { font-size: 1.5rem; width: 45%; border: 1px solid var(--green); }
+
+@media screen and (min-width: 1024px) { .datosResultados__box { width: 20vw; width: 80%; } }
+
+.resaltar__color { background-color: var(--green); }
+
+.resaltar__color p { border: 1px solid var(--black); }
+
 /*FOOTER*/
 .footer { height: 5vh; width: 100%; background-color: var(--black); color: var(--white); display: flex; align-items: center; justify-content: center; position: relative; font-size: 1.5rem; z-index: 100; }
 

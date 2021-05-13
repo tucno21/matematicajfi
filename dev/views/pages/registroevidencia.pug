@@ -1,0 +1,16 @@
+extends ../templates/template
+
+block nav
+    include ../includes/navegador
+
+block header
+    form.formulario(action='https://script.google.com/macros/s/AKfycbzt9L-pBSCKanO7ZmjRqqLdGZB1t_tiraWegKu8RQ/exec' method='get' target='_blank')
+        label DNI
+        input(name='INPUT_DNI' required='' type='text')
+        label Nombre
+        input(name='INPUT_NAME' required='' type='text')
+        button Buscar
+
+
+block footer
+    include ../includes/footer
