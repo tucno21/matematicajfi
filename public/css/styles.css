@@ -215,7 +215,7 @@ template { display: none; }
 /*seciones de meses y semanas*/
 .formulario { padding: 7rem; }
 
-.registroNotas__title { font-size: 2rem; }
+.registroNotas__title { text-align: center; font-size: 2rem; }
 
 .datosEstudiante__title { font-size: 2rem; padding: 1rem; }
 
