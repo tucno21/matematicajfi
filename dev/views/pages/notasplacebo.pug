@@ -8,13 +8,13 @@ block header
             h4.datosEstudiante__title Estudiante
             .datosEstudiante__box
                 p.resaltar__color N° DNI
-                P 42769197
+                P <?= dni.toUpperCase() ?>
             .datosEstudiante__box
                 P.resaltar__color NOMBRES
-                P CARLOS
+                P <?= nombre.toUpperCase() ?>
             .datosEstudiante__box
                 P.resaltar__color APELLIDOS
-                P TUCNO VASQUEZ
+                P <?= datoApellido ?>
 
         .NotasSiagie
             h4.NotasSiagie__title Notas de Matematica 2020
@@ -57,16 +57,16 @@ block header
                     p SEM-4 
                 .datosResultados__box
                     p sesión-1
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p xxxx
+                    p <?= datoS1S1 ?>
+                    p <?= datoS2S1 ?>
+                    p <?= datoS3S1 ?>
+                    p <?= datoS4S1 ?>
                 .datosResultados__box
                     p sesión-2
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p xxxx
+                    p <?= datoS1S2 ?>
+                    p <?= datoS2S2 ?>
+                    p <?= datoS3S2 ?>
+                    p <?= datoS4S2 ?>
 
             .datosResultados    <!-- mayo -->
                 h4.datosResultados__title MES: Mayo
@@ -78,16 +78,16 @@ block header
                     p SEM-8
                 .datosResultados__box
                     p sesión-1
-                    p xxxx
-                    p vac
-                    p xxxx
-                    p xxxx
+                    p <?= datoS5S1 ?>
+                    p <?= datoS6S1 ?>
+                    p <?= datoS7S1 ?>
+                    p <?= datoS8S1 ?>
                 .datosResultados__box
                     p sesión-2
-                    p xxxx
-                    p vac
-                    p xxxx
-                    p xxxx
+                    p <?= datoS5S2 ?>
+                    p <?= datoS6S2 ?>
+                    p <?= datoS7S2 ?>
+                    p <?= datoS8S2 ?>
 
             .datosResultados    <!-- junio -->
                 h4.datosResultados__title MES: Junio
@@ -100,18 +100,18 @@ block header
                     p SEM-13 
                 .datosResultados__box
                     p sesión-1
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p xxxx
+                    p <?= datoS9S1 ?>
+                    p <?= datoS10S1 ?>
+                    p <?= datoS11S1 ?>
+                    p <?= datoS12S1 ?>
+                    p <?= datoS13S1 ?>
                 .datosResultados__box
                     p sesión-2
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p xxxx
+                    p <?= datoS9S2 ?>
+                    p <?= datoS10S2 ?>
+                    p <?= datoS11S2 ?>
+                    p <?= datoS12S2 ?>
+                    p <?= datoS13S2 ?>
 
             .datosResultados    <!-- julio -->
                 h4.datosResultados__title MES: Julio
@@ -123,16 +123,16 @@ block header
                     p SEM-17 
                 .datosResultados__box
                     p sesión-1
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p vac
+                    p <?= datoS14S1 ?>
+                    p <?= datoS15S1 ?>
+                    p <?= datoS16S1 ?>
+                    p <?= datoS17S1 ?>
                 .datosResultados__box
                     p sesión-2
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p vac
+                    p <?= datoS14S2 ?>
+                    p <?= datoS15S2 ?>
+                    p <?= datoS16S2 ?>
+                    p <?= datoS17S2 ?>
 
             .datosResultados    <!-- agosto -->
                 h4.datosResultados__title MES: Agosto
@@ -144,16 +144,16 @@ block header
                     p SEM-21 
                 .datosResultados__box
                     p sesión-1
-                    p vac
-                    p xxxx
-                    p xxxx
-                    p xxxx
+                    p <?= datoS18S1 ?>
+                    p <?= datoS19S1 ?>
+                    p <?= datoS20S1 ?>
+                    p <?= datoS21S1 ?>
                 .datosResultados__box
                     p sesión-2
-                    p vac
-                    p xxxx
-                    p xxxx
-                    p xxxx
+                    p <?= datoS18S2 ?>
+                    p <?= datoS19S2 ?>
+                    p <?= datoS20S2 ?>
+                    p <?= datoS21S2 ?>
 
             .datosResultados    <!-- setiembre -->
                 h4.datosResultados__title MES: Septiembre
@@ -166,18 +166,18 @@ block header
                     p SEM-26
                 .datosResultados__box
                     p sesión-1
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p xxxx
+                    p <?= datoS22S1 ?>
+                    p <?= datoS23S1 ?>
+                    p <?= datoS24S1 ?>
+                    p <?= datoS25S1 ?>
+                    p <?= datoS26S1 ?>
                 .datosResultados__box
                     p sesión-2
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p xxxx
+                    p <?= datoS22S2 ?>
+                    p <?= datoS23S2 ?>
+                    p <?= datoS24S2 ?>
+                    p <?= datoS25S2 ?>
+                    p <?= datoS26S2 ?>
 
             .datosResultados    <!-- octubre -->
                 h4.datosResultados__title MES: Octubre
@@ -189,16 +189,16 @@ block header
                     p SEM-30
                 .datosResultados__box
                     p sesión-1
-                    p xxxx
-                    p vac
-                    p xxxx
-                    p xxxx
+                    p <?= datoS27S1 ?>
+                    p <?= datoS28S1 ?>
+                    p <?= datoS29S1 ?>
+                    p <?= datoS30S1 ?>
                 .datosResultados__box
                     p sesión-2
-                    p xxxx
-                    p vac
-                    p xxxx
-                    p xxxx
+                    p <?= datoS27S2 ?>
+                    p <?= datoS28S2 ?>
+                    p <?= datoS29S2 ?>
+                    p <?= datoS30S2 ?>
 
             .datosResultados    <!-- noviembre -->
                 h4.datosResultados__title MES: Noviembre
@@ -210,16 +210,16 @@ block header
                     p SEM-34
                 .datosResultados__box
                     p sesión-1
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p xxxx
+                    p <?= datoS31S1 ?>
+                    p <?= datoS32S1 ?>
+                    p <?= datoS33S1 ?>
+                    p <?= datoS34S1 ?>
                 .datosResultados__box
                     p sesión-2
-                    p xxxx
-                    p xxxx
-                    p xxxx
-                    p xxxx
+                    p <?= datoS31S2 ?>
+                    p <?= datoS32S2 ?>
+                    p <?= datoS33S2 ?>
+                    p <?= datoS34S2 ?>
 
             .datosResultados    <!-- diciembre -->
                 h4.datosResultados__title MES: Diciembre
@@ -230,14 +230,14 @@ block header
                     p SEM-37 
                 .datosResultados__box
                     p sesión-1
-                    p xxxx
-                    p xxxx
-                    p xxxx
+                    p <?= datoS35S1 ?>
+                    p <?= datoS36S1 ?>
+                    p <?= datoS37S1 ?>
                 .datosResultados__box
                     p sesión-2
-                    p xxxx
-                    p xxxx
-                    p xxxx
+                    p <?= datoS35S2 ?>
+                    p <?= datoS36S2 ?>
+                    p <?= datoS37S2 ?>
 
 
 
@@ -245,10 +245,10 @@ block header
             h4.datosEstudiante__title Resumen de evidencias
             .datosEstudiante__box
                 p.resaltar__color Total Evidencias:
-                P 456
+                P <?= datoTotalEvidencia ?>
             .datosEstudiante__box
                 P.resaltar__color Enviado:
-                P 58%
+                P <?= datoPorcentEnviado ?>
             .datosEstudiante__box
                 P.resaltar__color No enviado
-                P 42%
+                P <?= datoPorcentNoEnviado ?>
