@@ -22,7 +22,7 @@
         text-align: center;
         
         & p{
-            font-size: 1.7rem;
+            font-size: 1.5rem;
             width:45%;
             border: 1px solid $green;
             text-align: center;
@@ -110,6 +110,7 @@
             font-size: 1.5rem;
             width:45%;
             border: 1px solid $green;
+            padding: .3rem 0;
         }
 
         @include laptop{

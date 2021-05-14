@@ -236,7 +236,7 @@ template { display: none; }
 
 .datosEstudiante__box { margin: 0 auto; display: flex; align-items: center; width: 90vw; text-align: center; }
 
-.datosEstudiante__box p { font-size: 1.7rem; width: 45%; border: 1px solid var(--green); text-align: center; }
+.datosEstudiante__box p { font-size: 1.5rem; width: 45%; border: 1px solid var(--green); text-align: center; }
 
 @media screen and (min-width: 1024px) { .datosEstudiante__box { width: 50vw; } }
 
@@ -264,7 +264,7 @@ template { display: none; }
 
 .datosResultados__box { text-align: center; margin: 0 auto; display: flex; align-items: center; width: 90vw; }
 
-.datosResultados__box p { text-align: center; font-size: 1.5rem; width: 45%; border: 1px solid var(--green); }
+.datosResultados__box p { text-align: center; font-size: 1.5rem; width: 45%; border: 1px solid var(--green); padding: .3rem 0; }
 
 @media screen and (min-width: 1024px) { .datosResultados__box { width: 20vw; width: 80%; } }
 
