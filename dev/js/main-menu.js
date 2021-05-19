@@ -70,3 +70,17 @@ function comprobarNOMBRE(){
         // console.log(e.target.value.length);
     });
 }
+
+const abrirContent = document.getElementsByClassName("months__btn");
+
+for (let i = 0; i < abrirContent.length; i++) {
+    abrirContent[i].addEventListener("click", function () {
+        this.classList.toggle("abrir");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
+}
