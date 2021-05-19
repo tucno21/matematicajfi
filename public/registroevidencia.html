@@ -22,10 +22,18 @@
       <form class="formulario" action="https://script.google.com/macros/s/AKfycbzt9L-pBSCKanO7ZmjRqqLdGZB1t_tiraWegKu8RQ/exec" method="get" target="_blank">
         <h3 class="formulario__title">Login Para ver Registro de Evidencias</h3>
         <p class="formulario__parrafo">Acceso solo para estudiantes ingresar con su DNI y nombres escritas en mayusculas</p>
-        <label class="formulario__texto">DNI</label>
-        <input class="formulario__input" name="INPUT_DNI" required="" type="number" placeholder="Ingrese su DNI">
-        <label class="formulario__texto">Nombre</label>
-        <input class="formulario__input" name="INPUT_NAME" required="" type="text" placeholder="Ingrese su Nombre(s)">
+        <label class="formulario__texto" for="numeroDNI">DNI</label>
+        <div class="formulario__boxInput">
+          <input class="formulario__input" id="numeroDNI" name="INPUT_DNI" required="" type="number" placeholder="Ingrese su DNI">
+          <div id="icon1"></div>
+        </div>
+        <p id="error-msg1">el DNI tiene 8 digitos</p>
+        <label class="formulario__texto" for="nombremayu">Nombre</label>
+        <div class="formulario__boxInput">
+          <input class="formulario__input" id="nombremayu" name="INPUT_NAME" required="" type="text" placeholder="Ingrese su Nombre(s)">
+          <div id="icon2"></div>
+        </div>
+        <p id="error-msg2">mas de tres caracteres, todo en Mayuscula y sin tildes</p>
         <button class="formulario__boton">Buscar</button>
       </form>
     </header>
