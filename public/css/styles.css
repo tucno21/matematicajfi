@@ -132,8 +132,8 @@ template { display: none; }
 
 .nav__menu-link { color: var(--white); padding: 2rem 0; font-size: 3.5rem; letter-spacing: 2px; border-bottom: 1px solid var(--white); }
 
-@media screen and (min-width: 1024px) { .nav__menu-link { font-size: 2rem; padding: 1.5rem; letter-spacing: 0; }
-  .nav__menu-link:hover { border-radius: 10px 0 10px 0; transition: background-color .4s; background-color: rgba(255, 255, 255, 0.3); color: var(--green); } }
+@media screen and (min-width: 1024px) { .nav__menu-link { font-size: 2rem; padding: 1.5rem; border: 0; }
+  .nav__menu-link:hover { border: 1px solid var(--white); border-radius: 10px 0 10px 0; transition: background-color .4s; background-color: rgba(255, 255, 255, 0.3); color: var(--green); } }
 
 .toggle { width: 5.5rem; height: 5.8rem; display: flex; justify-content: center; align-items: center; }
 
